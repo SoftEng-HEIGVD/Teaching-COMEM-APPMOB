@@ -49,6 +49,7 @@ You are asked to provide:
   * It must use geolocation.
   * It must use [Mapbox](https://www.mapbox.com).
   * It must use the camera (works only on physical devices).
+* The appropriate configuration to run your application in both development and production mode.
 * A presentation page for the application. You can choose from the following options (one is enough):
   * If you participated in the [web services course](https://github.com/SoftEng-HEIGVD/Teaching-HEIGVD-CM_WEBS), you should have already written a presentation page for the API you developed. You can update this presentation page to also include a description of the mobile application, so it will become a presentation of the whole project (API + mobile application). If you didn't participate in the course but still want to use this option, you can fork the [original documentation repository](https://github.com/SoftEng-HEIGVD/Teaching-HEIGVD-CM_WEBS-2015-Labo-Doc), update the landing page and deploy it to Heroku.
   * You can present the application in the README of the GitHub repository for the application (if you forked the [starting repository](https://github.com/SoftEng-HEIGVD/Teaching-HEIGVD-CM_APPMOB-2015-CitizenEngagement), get rid of the original setup instructions and put your presentation there instead).
