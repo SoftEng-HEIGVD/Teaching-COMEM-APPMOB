@@ -89,10 +89,12 @@ Each group must send an e-mail to `simon.oulevay [at] heig-vd.ch` with the follo
 * Sass compilation issues
 
   If `gulp-sass` fails to install with compilation issues when you run `npm install`,
-  and you do not plan on writing CSS with Sass, comment the following line in `gulpfile.js`:
+  and you do not plan on writing CSS with Sass, you can remove this dependency by commenting the following line in `gulpfile.js`:
 
       //var sass = require('gulp-sass');
 
-  And *remove* the `gulp-sass` dependency from your `package.json` file (you cannot use comments in JSON):
+  Also *remove* the `gulp-sass` dependency from your `package.json` file (you cannot use comments in JSON):
 
       "gulp-sass": "^2.0.4"
+
+  Then re-run `npm install`.
